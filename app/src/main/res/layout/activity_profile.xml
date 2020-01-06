@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your speciality:"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+    <CheckBox
+        android:id="@+id/medicineid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine "
+        android:layout_marginBottom="30dp"
+        />
+    <CheckBox
+        android:id="@+id/surgeonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surgeon "
+        android:layout_marginBottom="30dp"
+        />
+    <CheckBox
+        android:id="@+id/cardiologistid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cardiologist "
+        android:layout_marginBottom="30dp"
+        />
+    <CheckBox
+        android:id="@+id/pediatricianid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pediatrician "
+        android:layout_marginBottom="30dp"
+        />
+    <Button
+        android:id="@+id/buttonsymptom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Proceed"
+        />
+
+</LinearLayout>

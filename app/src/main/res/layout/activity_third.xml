@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".third">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your location:"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+
+    <CheckBox
+        android:id="@+id/dhakaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dhaka "
+        android:layout_marginBottom="30dp"
+        />
+
+    <CheckBox
+        android:id="@+id/rajshahiid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rajshahi "
+        android:layout_marginBottom="30dp"
+        />
+
+    <CheckBox
+        android:id="@+id/rangpurid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rangpur "
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/buttonlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Proceed"
+        />
+
+</LinearLayout>
